@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "version": "3.0",
+    "type": "derivado",
+    "persona_id": "demo",
+    "derivado_id": "fullstack_dev",
+    "created": "2026-01-01",
+    "last_updated": "2026-01-01"
+  },
+  "config": {
+    "nombre": "Full Stack Developer",
+    "objetivo_laboral": "Desarrollador Python Full Stack",
+    "perfil_profesional": "Desarrollador Python con experiencia en Django, PostgreSQL y testing automatizado. Background en analisis de datos con Pandas. Proactivo, orientado a resultados y con buena comunicacion.",
+    "experiencias_incluir": ["techcorp_2025", "startup_2024"],
+    "habilidades_destacar": [
+      "Python 3.x", "Django / Flask", "PostgreSQL / SQLite",
+      "APIs REST", "Git / GitHub", "Testing (pytest)",
+      "Pandas", "SQL avanzado"
+    ],
+    "disponibilidad_custom": "Inmediata, full-time",
+    "layout": "two_col_sidebar",
+    "paleta": "azul_acero"
+  }
+}

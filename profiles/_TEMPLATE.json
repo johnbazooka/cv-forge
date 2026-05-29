@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "version": "3.0",
+    "type": "maestro",
+    "persona_id": "[id_unico_sin_espacios]",
+    "identidad": "[Nombre corto o apodo]",
+    "created": "[YYYY-MM-DD]",
+    "last_updated": "[YYYY-MM-DD]",
+    "fuente": "[De dónde salieron los datos]",
+    "relacion_victor": "[Amigo/familiar/colega/yo mismo - opcional]"
+  },
+  "persona": {
+    "nombre_completo": "[Nombre Completo]",
+    "nombre_corto": "[Nombre corto]",
+    "rut": "[XX.XXX.XXX-X]",
+    "contacto": {
+      "telefono": "[+56 9 XXXX XXXX]",
+      "email": "[email@ejemplo.com]"
+    },
+    "ubicacion": "[Comuna, Región]",
+    "disponibilidad_base": "[Inmediata/2 semanas/etc]"
+  },
+  "experiencia": [
+    {
+      "id": "[empresa_periodo]",
+      "empresa": "[Nombre empresa]",
+      "cargo": "[Cargo]",
+      "area": "[retail_moda/retail_general/gastronomia/etc]",
+      "periodo": { "inicio": "[YYYY-MM]", "fin": "[YYYY-MM o presente]" },
+      "duracion_texto": "[Texto legible: Ene 2025 - Presente]",
+      "ubicacion": "[Ubicación si aplica]",
+      "responsabilidades": [
+        "[Responsabilidad 1]",
+        "[Responsabilidad 2]"
+      ],
+      "logros": [
+        "[Logro 1 - idealmente cuantificable]"
+      ],
+      "habilidades": [
+        "[Habilidad desarrollada 1]"
+      ]
+    }
+  ],
+  "educacion": [
+    {
+      "id": "[institucion_anio]",
+      "institucion": "[Nombre institución]",
+      "titulo": "[Título obtenido]",
+      "periodo": "[Año o rango]",
+      "estado": "[completa/en_curso/incompleta]"
+    }
+  ],
+  "habilidades": {
+    "categoria_1": {
+      "emoji": "[emoji]",
+      "nombre": "[Nombre categoría]",
+      "items": ["[skill 1]", "[skill 2]"]
+    }
+  },
+  "idiomas": [
+    { "idioma": "[Idioma]", "nivel": "[Nativo/Avanzado/Intermedio/Básico]" }
+  ],
+  "referencias": "Disponibles bajo solicitud"
+}

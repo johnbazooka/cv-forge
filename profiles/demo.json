@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "version": "3.0",
+    "type": "maestro",
+    "persona_id": "demo",
+    "identidad": "Demo User",
+    "created": "2026-01-01",
+    "last_updated": "2026-01-01",
+    "fuente": "Datos ficticios para demostracion"
+  },
+  "persona": {
+    "nombre_completo": "Maria Gonzalez Lopez",
+    "nombre_corto": "Maria Gonzalez",
+    "rut": "12.345.678-9",
+    "contacto": {
+      "telefono": "+56 9 1234 5678",
+      "email": "maria.gonzalez@email.com"
+    },
+    "ubicacion": "Santiago, Region Metropolitana",
+    "disponibilidad_base": "Inmediata",
+    "links": {
+      "linkedin": "https://linkedin.com/in/maria-gonzalez",
+      "github": "https://github.com/maria-gonzalez"
+    }
+  },
+  "experiencia": [
+    {
+      "id": "techcorp_2025",
+      "empresa": "TechCorp SpA",
+      "cargo": "Desarrollador Python Junior",
+      "area": "desarrollo_software",
+      "periodo": { "inicio": "2025-03", "fin": "presente" },
+      "duracion_texto": "Mar 2025 - Presente",
+      "ubicacion": "Santiago, Chile",
+      "responsabilidades": [
+        "Desarrollo de APIs REST con Django y PostgreSQL",
+        "Testing automatizado con pytest (50+ tests)",
+        "CI/CD con GitHub Actions",
+        "Code review y documentacion tecnica"
+      ],
+      "logros": [
+        "Reduccion del 40% en tiempo de deploy con pipeline automatizado",
+        "Implementacion de sistema de caching que mejoro latencia en 60%"
+      ],
+      "habilidades": [
+        "Python", "Django", "PostgreSQL", "pytest", "Git"
+      ]
+    },
+    {
+      "id": "startup_2024",
+      "empresa": "StartupXYZ",
+      "cargo": "Analista de Datos",
+      "area": "data_analytics",
+      "periodo": { "inicio": "2024-01", "fin": "2025-02" },
+      "duracion_texto": "Ene 2024 - Feb 2025",
+      "ubicacion": "Santiago, Chile",
+      "responsabilidades": [
+        "Analisis de datos de ventas con Python y Pandas",
+        "Dashboards interactivos con Plotly",
+        "Reportes automatizados semanales para gerencia"
+      ],
+      "logros": [
+        "Identificacion de patron estacional que incremento ventas en 15%"
+      ],
+      "habilidades": [
+        "Python", "Pandas", "Plotly", "SQL", "Excel avanzado"
+      ]
+    }
+  ],
+  "educacion": [
+    {
+      "id": "bootcamp_fullstack",
+      "institucion": "Bootcamp Tech Chile",
+      "titulo": "Full Stack Python Developer",
+      "periodo": "2023 (6 meses)",
+      "estado": "completa",
+      "descripcion": "Bootcamp intensivo: Python, Django, PostgreSQL, APIs REST, deployment."
+    },
+    {
+      "id": "universidad",
+      "institucion": "Universidad de Santiago",
+      "titulo": "Ingenieria en Informatica (3 anos)",
+      "periodo": "2018-2021",
+      "estado": "incompleta",
+      "descripcion": "Estudios en programacion, bases de datos, algoritmos."
+    }
+  ],
+  "habilidades": {
+    "desarrollo": {
+      "emoji": "DEV",
+      "nombre": "Desarrollo",
+      "items": [
+        "Python 3.x",
+        "Django / Flask",
+        "PostgreSQL / SQLite",
+        "APIs REST",
+        "Git / GitHub",
+        "Testing (pytest)"
+      ]
+    },
+    "datos": {
+      "emoji": "DATA",
+      "nombre": "Analisis de Datos",
+      "items": [
+        "Pandas",
+        "NumPy",
+        "Plotly / Matplotlib",
+        "SQL avanzado",
+        "Excel avanzado"
+      ]
+    },
+    "blandas": {
+      "emoji": "SOFT",
+      "nombre": "Habilidades Blandas",
+      "items": [
+        "Trabajo en equipo",
+        "Comunicacion efectiva",
+        "Resolucion de problemas",
+        "Adaptabilidad"
+      ]
+    }
+  },
+  "idiomas": [
+    { "idioma": "Espanol", "nivel": "Nativo" },
+    { "idioma": "Ingles", "nivel": "Intermedio" }
+  ],
+  "referencias": "Disponibles bajo solicitud"
+}
