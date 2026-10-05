@@ -28,7 +28,7 @@ profiles/tu_nombre.json        ← MAESTRO (toda tu experiencia en JSON)
 ## Instalacion
 
 ```bash
-git clone https://github.com/vpino/cv-forge.git
+git clone https://github.com/johnbazooka/cv-forge.git
 cd cv-forge
 pip install -r requirements.txt
 ```
@@ -139,4 +139,4 @@ MIT — Usa, modifica, comparte.
 
 ## Autor
 
-Victor Pino — [GitHub](https://github.com/vpino)
+Victor Pino — [GitHub](https://github.com/johnbazooka)
